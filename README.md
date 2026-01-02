@@ -3,7 +3,6 @@ This project implements an email spam detection system using Naive Bayes algorit
 
 # Dataset
 
-### Source : 
-KAGGLE Spam Collection Dataset
+### Source : KAGGLE Spam Collection Dataset
 
 This dataset contains a collection of email messages labeled as Spam or Ham (Not Spam). It is designed for email spam detection and text classification tasks. Each record includes the raw email text along with its corresponding label, making it suitable for preprocessing, feature extraction, and training machine learning or NLP models.
