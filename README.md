@@ -49,7 +49,8 @@ This dataset contains a collection of email messages labeled as Spam or Ham (Not
 
 #### Multinomial Naive Bayes
 
-&#9733; Accuracy : 97%                                                                                                                   &#9733; Precision Score : 1.0 
+&#9733; Accuracy : 97%                                                                                                                   
+&#9733; Precision Score : 1.0
 
 The Multinomial Naive Bayes model achieved a precision score of 1, meaning all emails predicted as spam were truly spam.
 This makes the model highly reliable for real-world spam filtering systems.
