@@ -11,46 +11,45 @@ This dataset contains a collection of email messages labeled as Spam or Ham (Not
 
 #### 1.Data Loading & Cleaning
 
-&#9733; Loaded the email spam dataset using Pandas.
+&#9679; Loaded the email spam dataset using Pandas.
 
-&#9733; Removed unnecessary columns and handled missing values.
+&#9679; Removed unnecessary columns and handled missing values.
 
-&#9733; Renamed columns for better readability (e.g., label, message).
+&#9679; Renamed columns for better readability (e.g., label, message).
 
 #### 2.Label Encoding
 
-&#9733; Converted categorical labels (spam, ham) into numerical form for model training.
+&#9679; Converted categorical labels (spam, ham) into numerical form for model training.
 
 #### 3.Text Preprocessing
 
-&#9733; Converted text to lowercase.
+&#9679; Converted text to lowercase.
 
-&#9733; Removed special characters and unnecessary symbols.
+&#9679; Removed special characters and unnecessary symbols.
 
-&#9733; Transformed raw text into numerical features using CountVectorizer / TF-IDF.
+&#9679; Transformed raw text into numerical features using CountVectorizer / TF-IDF.
 
 #### 4.Train–Test Split
 
-&#9733; Split the dataset into training and testing sets to evaluate model performance.
+&#9679; Split the dataset into training and testing sets to evaluate model performance.
 
 #### 5.Model Selection
 
-&#9733; Trained multiple classifiers and compared their performance.
+&#9679; Trained multiple classifiers and compared their performance.
 
-&#9733; Multinomial Naive Bayes was selected because it achieved the highest precision score of 1, making it ideal for spam classification where false positives must be minimized.
+&#9679; Multinomial Naive Bayes was selected because it achieved the highest precision score of 1, making it ideal for spam classification where false positives must be minimized.
 
 #### 6.Model Evaluation
 
-&#9733; Evaluated the model using accuracy, precision, recall, and confusion matrix.
+&#9679; Evaluated the model using accuracy, precision, recall, and confusion matrix.
 
-&#9733; Precision was given priority due to the nature of spam detection.
+&#9679; Precision was given priority due to the nature of spam detection.
 
 # Results
 
 #### Multinomial Naive Bayes
 
-&#9733; Accuracy : 97%
-&#9733; Precision Score : 1.0 
+&#9733; Accuracy : 97%                                                                                                                   &#9733; Precision Score : 1.0 
 
 The Multinomial Naive Bayes model achieved a precision score of 1, meaning all emails predicted as spam were truly spam.
 This makes the model highly reliable for real-world spam filtering systems.
